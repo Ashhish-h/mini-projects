@@ -95,3 +95,7 @@ input[type="checkbox"]{
 .getBtn:hover{
     background-color: #46484e;
 }
+
+#sliderValue{
+    margin-right: 8px;
+}
