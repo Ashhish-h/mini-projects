@@ -6,7 +6,8 @@ const lowerCaseElment = document.getElementById("lowercase");
 const upperCaseElment = document.getElementById("uppercase");
 const numberElement = document.getElementById("numbers");
 const symbolsElement = document.getElementById("symbols");
-const generateBtn = document.getElementById("getBtn")  
+const generateBtn = document.getElementById("getBtn");
+const copyIcon = document.getElementById("copyIcon"); 
 
 // declaring and initilizing the values that will be used to generate password
 const lowercaseLetter = "abcdefghijklmanoprstuvwxyz";
@@ -42,3 +43,15 @@ function generatePassword(){
     }
     return password;
 }
+
+
+// eventListner to copy the password whenever we click on the copyIcon
+copyIcon.addEventListener("click", ()=>{
+    if(passBox.value != "" || passBox.value.length >= 8){
+        navigator.clipboard.writeText(passBox.value);
+        copyIcon.innerText = "check";
+        setTimeout(() =>{
+            copyIcon.innerHTML = "content_copy";
+        }, 3000);
+    }
+});
