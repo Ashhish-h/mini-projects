@@ -1,3 +1,4 @@
+// fetching the elements of the html code
 const inputSlider = document.getElementById("inputSlider");
 const sliderValue = document.getElementById("sliderValue");
 const passBox = document.getElementById("passBox");
@@ -7,22 +8,25 @@ const numberElement = document.getElementById("numbers");
 const symbolsElement = document.getElementById("symbols");
 const generateBtn = document.getElementById("getBtn")  
 
+// declaring and initilizing the values that will be used to generate password
 const lowercaseLetter = "abcdefghijklmanoprstuvwxyz";
 const uppercaseLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "0123456789";
 const symbols = "!@#$%^&*<>?/.,\|`~";
 
-
+// changing the value of slider to set the length of the password
 sliderValue.textContent = inputSlider.value;
 inputSlider.addEventListener("input", () =>{
     sliderValue.textContent = inputSlider.value;
 });
 
+// showing password in the input field
 generateBtn.addEventListener("click", () =>{
-    
     passBox.value = generatePassword();
 });
 
+
+// Generate password
 function generatePassword(){
     const length = inputSlider.value;
     let characters = "";
