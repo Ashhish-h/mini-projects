@@ -60,3 +60,14 @@ body{
 input[type="range"]{
     width: 100%;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.row p{
+    font-weight: 700;  
+}
