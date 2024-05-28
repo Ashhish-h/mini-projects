@@ -25,7 +25,13 @@ password.addEventListener("input", function (){
     message.style.display = "block"  // For displaying message
 });
 
-// submitBtn.addEventListener("click", function (){
-//     const passwordType = password;
+submitBtn.addEventListener("click", function (){
+    const passwordType = password.getAttribute("type");
 
-// })
+    if(passwordType === 'password'){
+        password.setAttribute("type", "text");
+    } else {
+        password.setAttribute("type", "password");
+    }
+
+})
