@@ -14,9 +14,10 @@ You can access the site at :- https://todo-list-app-ashhish-h.netlify.app/
 A tool to generate secure and strong passwords to enhance your online security.
 You can access the site at :- https://random-password-generator-ashhish-h.netlify.app/
 
-### Password Checker
+### Password Strength Checker
 
 A utility to check the strength of a given password and ensure it meets security standards.
+You can access the site at :- https://password-strength-checker-ashhish-h.netlify.app/
 
 ### Mini Games
 
