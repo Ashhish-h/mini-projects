@@ -31,3 +31,12 @@
     font-size: 16px;
     background: transparent;
 }
+
+button{
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
