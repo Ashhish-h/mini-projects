@@ -13,3 +13,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.input-box{
+    width: 400px;
+    /* background-color: #ffffff; */
+    position: relative;
+}
