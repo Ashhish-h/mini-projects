@@ -7,19 +7,22 @@ Welcome to the **Mini-Projects** repository! This collection includes a variety 
 ### To-Do List
 
 A simple To-Do list application to help you manage your tasks.
-You can access the site at :- https://todo-list-app-ashhish-h.netlify.app/
+Create you todo-list for today :- https://todo-list-app-ashhish-h.netlify.app/
 
 ### Strong Random Password Generator
 
 A tool to generate secure and strong passwords to enhance your online security.
-You can access the site at :- https://random-password-generator-ashhish-h.netlify.app/
+Don't have a strong password? No need to worry generate it here :- https://random-password-generator-ashhish-h.netlify.app/
 
 ### Password Strength Checker
 
 A utility to check the strength of a given password and ensure it meets security standards.
-You can access the site at :- https://password-strength-checker-ashhish-h.netlify.app/
+Why don't you check your password strength here :- https://password-strength-checker-ashhish-h.netlify.app/
 
 ### Mini Games
+
+### 1 - piano-app
+- You can play some notes here :- https://piano-app-ashhish-h.netlify.app/
 
 A collection of small and fun games to pass the time.
 
