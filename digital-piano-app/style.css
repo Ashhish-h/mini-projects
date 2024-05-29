@@ -4,3 +4,37 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    text-align: center;
+    background-color: #3a407a;
+}
+
+.piano-container{
+    padding: 20px;
+}
+
+button{
+    width: 60px;
+    height: 200px;
+    margin: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: tranform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+.white-key{
+    background-color: aliceblue;
+}
+
+.black-key{
+    background-color: rgb(36, 29, 29);
+    color: aliceblue;
+}
