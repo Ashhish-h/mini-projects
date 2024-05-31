@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 
 }
 
@@ -82,5 +83,5 @@ body{
 }
 
 .notes textarea:focus{
-    width: 300px;
+    outline: none;
 }
