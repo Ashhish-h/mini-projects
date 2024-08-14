@@ -19,6 +19,10 @@ Don't have a strong password? No need to worry generate it here :- https://rando
 A utility to check the strength of a given password and ensure it meets security standards.
 Why don't you check your password strength here :- https://password-strength-checker-ashhish-h.netlify.app/
 
+### Notes Taking App
+A simple notes taking app.
+check here :- https://notes-ashhish-h.netlify.app/
+
 ### Mini Games
 
 ### 1 - piano-app
